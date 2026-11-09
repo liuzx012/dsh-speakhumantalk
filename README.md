@@ -17,7 +17,7 @@ DSH 的说人话插件，每个会话自动生效。把五份上游规则合成�
 | `deslop_mode` | 查/切强度（off / subtle / balanced / full / voice-match）与语言 |
 | `deslop_voice` | 从用户样本抽句长分布、收缩率、破折号密度、开场词，只存数字 |
 
-skill：`deslop`（三遍法改稿 + 14 项自检）、`deslop-chat`（对话动作与回复形状规划）、`deslop-docs`（技术文档：Diátaxis 定类型、句法收敛、文档体裁的 AI 味清单、Vale 接入）、`deslop-report`（中文报告/方案/评估/docx：论证链、多口径对比、专业口吻、报告体裁 AI 味清单）。插件启动时同步到 `$DSH_HOME/skills/`，内容相同就跳过。
+skill：`deslop`（三遍法改稿 + 14 项自检）、`deslop-chat`（对话动作与回复形状规划）、`deslop-docs`（技术文档：Diátaxis 定类型、句法收敛、文档体裁的 AI 味清单、Vale 接入）、`deslop-report`（中文报告/方案/评估/docx：论证链、多口径对比、书面语标准、报告体裁 AI 味清单）。插件启动时同步到 `$DSH_HOME/skills/`，内容相同就跳过。
 
 ## 装法
 
