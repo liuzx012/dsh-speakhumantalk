@@ -15,11 +15,12 @@ Four tools:
 - `deslop_mode` — inspect or switch intensity: `off` / `subtle` / `balanced` / `full` / `voice-match`.
 - `deslop_voice` — statistics from your own writing samples: sentence lengths, contraction rate, em-dash density, openers. Numbers only, never the prose.
 
-Three skills:
+Four skills:
 
 - `deslop` — three-pass rewrite: kill words, break structure, add a human, then an 11-item checklist.
 - `deslop-chat` — pick the social move for the turn first, then the reply shape; for "stop sounding like support".
 - `deslop-docs` — technical docs: pick the Diátaxis type first, then tighten sentences and strip template bloat, with a 12-item checklist and Vale setup.
+- `deslop-report` — Chinese reports, proposals, assessments, docx: build the argument chain first (fixed scope, no skipped causal step, parts summing to the whole), then longitudinal/lateral/standard comparisons with a verdict, then a professional register.
 
 ## Usage
 

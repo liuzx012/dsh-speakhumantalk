@@ -1,6 +1,6 @@
 {
   "name": "dsh-speakhumantalk",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "DSH 说人话插件：删掉 AI 腔与套话，每会话自动生效。四工具两 skill，代码块与 URL 逐字保留。",
   "keywords": [
     "dsh",
