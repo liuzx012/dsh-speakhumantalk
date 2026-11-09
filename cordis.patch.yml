@@ -1,0 +1,29 @@
+# dsh-speakhumantalk bundle patch
+#
+# 每个会话自动生效：systemPrompt.section 是全局段，会话组装时无条件求值，
+# 不依赖用户手动开启。改 state.json 里的 mode 下一轮组装即生效，不用重启。
+
+- insert:
+    - id: dsh-speakhumantalk
+      name: dsh-speakhumantalk
+      inject: [systemPrompt, tools]
+      config:
+        enabled: true
+        # 常驻开关：true = 每个会话都注入风格层
+        alwaysOn: true
+        # balanced | subtle | full | voice-match | off
+        mode: balanced
+        # auto | zh | en
+        lang: auto
+        # compact | full —— 注入段的长度；compact 约 40 行
+        promptStyle: compact
+        # 段位置：落在 persona 之后、结构化输出之前，压得住前面的格式化习惯
+        sectionOrder: 9500
+        # 把 skills/deslop、skills/deslop-chat 装到 $DSH_HOME/skills
+        installSkills: true
+        # 确定性改写里的结构处理（破折号配额、过渡词聚类）
+        structural: true
+        # 每段破折号硬上限
+        emDashCap: 2
+        # 改写时是否允许触碰代码块/URL/行内代码（false = 逐字保留）
+        touchCode: false

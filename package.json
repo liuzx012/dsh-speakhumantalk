@@ -1,0 +1,37 @@
+{
+  "name": "dsh-speakhumantalk",
+  "version": "1.0.0",
+  "description": "DSH 说人话插件：每个会话自动生效的去 AI 味风格层。把 unslop / humanize-ai-writing / humanize-writing-skill / natural-talk / Rafiq Human Conversation Dynamics 合成一层常驻风格层 + 确定性改写器 + 对话姿态规划。默认 balanced，中文优先。",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "speakhumantalk", "deslop", "humanize", "去AI味", "说人话", "文风"],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": { "default": "./lib/index.js" },
+    "./patterns": "./lib/patterns.js",
+    "./humanize": "./lib/humanize.js",
+    "./scan": "./lib/scan.js",
+    "./package.json": "./package.json"
+  },
+  "files": ["lib", "skills", "locale", "docs", "test", "cordis.patch.yml", "README.md", "INSTALL.md", "LICENSE"],
+  "author": "zp",
+  "homepage": "https://github.com/liuzx012/dsh-speakhumantalk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuzx012/dsh-speakhumantalk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liuzx012/dsh-speakhumantalk/issues"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  },
+  "engines": { "node": ">=18" },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "install": {
+      "preferred": "git",
+      "git": "https://github.com/liuzx012/dsh-speakhumantalk.git"
+    }
+  },
+  "license": "MIT"
+}
