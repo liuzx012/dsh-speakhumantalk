@@ -1,7 +1,7 @@
 {
   "name": "dsh-speakhumantalk",
   "version": "1.0.0",
-  "description": "DSH 说人话插件：每个会话自动生效的去 AI 味风格层。把 unslop / humanize-ai-writing / humanize-writing-skill / natural-talk / Rafiq Human Conversation Dynamics 合成一层常驻风格层 + 确定性改写器 + 对话姿态规划。默认 balanced，中文优先。",
+  "description": "DSH 说人话插件：删掉 AI 腔与套话，每会话自动生效。四工具两 skill，代码块与 URL 逐字保留。",
   "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "speakhumantalk", "deslop", "humanize", "去AI味", "说人话", "文风"],
   "type": "module",
   "main": "lib/index.js",
