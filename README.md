@@ -17,14 +17,14 @@ DSH 的说人话插件，每个会话自动生效。把五份上游规则合成�
 | `deslop_mode` | 查/切强度（off / subtle / balanced / full / voice-match）与语言 |
 | `deslop_voice` | 从用户样本抽句长分布、收缩率、破折号密度、开场词，只存数字 |
 
-skill：`deslop`（三遍法改稿 + 14 项自检）、`deslop-chat`（对话动作与回复形状规划）。插件启动时同步到 `$DSH_HOME/skills/`，内容相同就跳过。
+skill：`deslop`（三遍法改稿 + 14 项自检）、`deslop-chat`（对话动作与回复形状规划）、`deslop-docs`（技术文档：Diátaxis 定类型、句法收敛、文档体裁的 AI 味清单、Vale 接入）。插件启动时同步到 `$DSH_HOME/skills/`，内容相同就跳过。
 
 ## 装法
 
 给其他 DSH 装，用 tgz 最省事（`dsh plugin add` 会自动登记 bundle）：
 
 ```powershell
-dsh plugin --profile web add "file:C:/path/dsh-speakhumantalk-1.0.0.tgz"
+dsh plugin --profile web add "file:C:/path/dsh-speakhumantalk-1.1.0.tgz"
 dsh --profile web --dump-config | Select-String speakhumantalk   # 能看到 # == dsh-speakhumantalk 就对了
 ```
 

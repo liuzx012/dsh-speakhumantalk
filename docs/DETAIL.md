@@ -15,10 +15,11 @@ Four tools:
 - `deslop_mode` — inspect or switch intensity: `off` / `subtle` / `balanced` / `full` / `voice-match`.
 - `deslop_voice` — statistics from your own writing samples: sentence lengths, contraction rate, em-dash density, openers. Numbers only, never the prose.
 
-Two skills:
+Three skills:
 
 - `deslop` — three-pass rewrite: kill words, break structure, add a human, then an 11-item checklist.
 - `deslop-chat` — pick the social move for the turn first, then the reply shape; for "stop sounding like support".
+- `deslop-docs` — technical docs: pick the Diátaxis type first, then tighten sentences and strip template bloat, with a 12-item checklist and Vale setup.
 
 ## Usage
 

@@ -15,10 +15,11 @@ DSH 的去 AI 味插件，每个会话自动生效。
 - `deslop_mode` —— 查或切强度：`off` / `subtle` / `balanced` / `full` / `voice-match`。
 - `deslop_voice` —— 从你自己写的样本抽句长分布、收缩率、破折号密度、开场词，只存数字，不存正文。
 
-两个 skill：
+三个 skill：
 
 - `deslop` —— 三遍法改稿：杀词、破结构、加人味，收尾 11 项自检。
 - `deslop-chat` —— 先定这一轮做哪个社交动作，再定回复形状（几段、多长、要不要问）；处理「别像客服」这类要求。
+- `deslop-docs` —— 技术文档：先用 Diátaxis 定类型，再收句子、删模板（Key Features 段、结尾复述、加粗当标题），带 12 项自检与 Vale 接入。
 
 ## 怎么用
 
