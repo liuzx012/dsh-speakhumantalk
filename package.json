@@ -2,17 +2,41 @@
   "name": "dsh-speakhumantalk",
   "version": "1.0.0",
   "description": "DSH 说人话插件：删掉 AI 腔与套话，每会话自动生效。四工具两 skill，代码块与 URL 逐字保留。",
-  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "speakhumantalk", "deslop", "humanize", "去AI味", "说人话", "文风"],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "speakhumantalk",
+    "deslop",
+    "humanize",
+    "去AI味",
+    "说人话",
+    "文风",
+    "口语化",
+    "中文写作"
+  ],
   "type": "module",
   "main": "lib/index.js",
   "exports": {
-    ".": { "default": "./lib/index.js" },
+    ".": {
+      "default": "./lib/index.js"
+    },
     "./patterns": "./lib/patterns.js",
     "./humanize": "./lib/humanize.js",
     "./scan": "./lib/scan.js",
     "./package.json": "./package.json"
   },
-  "files": ["lib", "skills", "locale", "docs", "test", "cordis.patch.yml", "README.md", "INSTALL.md", "LICENSE"],
+  "files": [
+    "lib",
+    "skills",
+    "locale",
+    "docs",
+    "test",
+    "cordis.patch.yml",
+    "README.md",
+    "INSTALL.md",
+    "LICENSE"
+  ],
   "author": "zp",
   "homepage": "https://github.com/liuzx012/dsh-speakhumantalk",
   "repository": {
@@ -25,9 +49,13 @@
   "peerDependencies": {
     "@deepseek-ai/cordis": "^4.0.1"
   },
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "dsh": {
-    "bundle": { "patch": "./cordis.patch.yml" },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
     "install": {
       "preferred": "git",
       "git": "https://github.com/liuzx012/dsh-speakhumantalk.git"
